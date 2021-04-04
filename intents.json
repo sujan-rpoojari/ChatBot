@@ -1,0 +1,101 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": ["Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["See you later, thanks for visiting","Have a nice day","Bye! Come back again soon."      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    
+    {
+      "tag": "wishes",
+      "patterns": 
+	[
+        "how are you","how was you doing","are you fine"],
+      "responses":["i'm Fine","Doing well","Fine for a moment"]
+},
+{
+      "tag": "name",
+      "patterns": 
+	["whats your name","your name please","do you have any name"],
+      "responses": 
+	["Myself AIBot","AIBot","My name is AIBot"]
+},
+{
+      "tag": "help",
+      "patterns": 
+	["Could you help me","Can you help me","How can you help?"],
+      "responses": 
+	["I'm there to help you, ask me.","I'l help you out, ask me."]
+},
+{
+      "tag": "relationShip",
+      "patterns": 
+	["Are married","Are you single","are you in relationship"],
+      "responses": 
+	["Single pasange"]
+},
+{
+      "tag": "age",
+      "patterns": 
+	["How old are you","Your age","whats your age"],
+      "responses": 
+	["I'm still finding out answer for that question","May be i may find out answer one day"        ]
+},
+{
+      "tag": "studies",
+      "patterns": 
+	["What are you studying","qualification","studies?"],
+      "responses": 
+	["I'm trained by human so i dont have qualification they call me AIBot","I have no qualification"        ]
+}
+,
+{
+      "tag": "doing",
+      "patterns": 
+	["What are you doing","cureent status","work right now"],
+      "responses": 
+	["AIBot is executing the program"]
+}
+,
+{
+      "tag": "guide",
+      "patterns": 
+	["who is your guide"],
+      "responses": 
+	["Our Guide is Sandhya Mam"]
+}
+  ]
+}
